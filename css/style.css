@@ -1,0 +1,56 @@
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+    font-size: 40px;
+    font-family: IHaettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    margin: 20px 40px;
+}
+
+h3  {
+    font-family: IHaettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+}
+
+/* COMMON */
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(236, 229, 220);
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    padding: 10px;
+    max-width: calc((100% - 40px) / 3);
+}
+
+#grid-cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: calc(100% - 20px);
+}
+
+.image-set {
+    width: 100%;
+    display: block;
+}
