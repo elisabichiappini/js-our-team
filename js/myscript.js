@@ -37,7 +37,6 @@ const membriTeam = [
     "photo" : 'angela-caroll-chief-editor.jpg'
     },
     {
-
     "role" : 'Office Manager',
     "photo" : 'walter-gordon-office-manager.jpg'
     },
@@ -68,8 +67,6 @@ const ulElemento = document.getElementById('grid-cards');
 for (let i = 0; i < membriTeam.length; i++) {
     const membriSignoli = membriTeam[i];
     console.log(`MEMBRO ${i + 1}`)
-
-    console.log(membriSignoli.nome);
 
     // soggetto
     // cosa voglia
@@ -106,8 +103,6 @@ for (let i = 0; i < membriTeam.length; i++) {
     } else {
         h3Elemento.textContent = 'nome non trovato';
     }
-
-    h3Elemento.innerHTML = membriSignoli.nome;
     li.append(h3Elemento);
     
     const h4Elemento = document.createElement('h4');
